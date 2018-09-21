@@ -6,7 +6,7 @@ This is my PyTorch implementation for semi-supervised un-paired co-training. Alt
 
 This package includes [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), [MCD_DA](https://github.com/mil-tokyo/MCD_DA)
 
-The code was written by [Chia-Ming Chang](https://github.com/onedayatatime0923).
+The code was written by [You Yue Huang](https://github.com/YouYueHuang/CycleGAN_Unsupervised_Domain_Adaptation).
 
 **Note**: The current software works well with PyTorch 0.4.
 
