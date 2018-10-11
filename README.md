@@ -17,6 +17,12 @@ The code was written by [You Yue Huang](https://github.com/YouYueHuang/CycleGAN_
 ## Getting Started
 ### Installation
 - Install torch and dependencies from https://github.com/torch/distro
+- Install torchnet 
+```python
+python -m pip install --upgrade pip
+pip install git+https://github.com/pytorch/tnt.git@master
+pip install --upgrade git+https://github.com/pytorch/tnt.git@master
+```
 - Install tensorboardX from https://github.com/lanpa/tensorboardX
 - Clone this repo:
 ```bash
