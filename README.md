@@ -23,6 +23,12 @@ python -m pip install --upgrade pip
 pip install git+https://github.com/pytorch/tnt.git@master
 pip install --upgrade git+https://github.com/pytorch/tnt.git@master
 ```
+
+- Install bulitins
+```bash
+pip install future
+```
+
 - Install tensorboardX from https://github.com/lanpa/tensorboardX
 - Clone this repo:
 ```bash
