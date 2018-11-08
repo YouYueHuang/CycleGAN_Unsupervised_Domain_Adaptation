@@ -149,6 +149,12 @@ Optionally, for displaying images during training and test, use the [tensorboard
 cd checkpoints/cycle_mcd_da
 tensorboard --logdir log
 ```
+If Ctrl-C couldn't terminate the process properly, 
+```bash
+lsof -i:6006
+kill -9 <process id>
+```
+
 ## Citation
 
 ```
@@ -169,7 +175,6 @@ tensorboard --logdir log
 }
 
 ```
-
 
 ## Acknowledgments
 code is done in iis sinica.
